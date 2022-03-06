@@ -38,5 +38,23 @@ Add the key to GitHub:
 gh ssh-key add .ssh/id_rsa.pub
 ```
 
+Configure your Git username and email:
+```
+git config --global user.email "<YOUR EMAIL>"
+git config --global user.name "<YOUR USERNAME>"
+```
 
+Now clone this repository:
+```
+git clone git@github.com:chaukap/pi-plant.git 
+```
 
+Navigate to it:
+```
+cd pi-plant
+```
+
+## Install python dependencies
+```
+pip3 install opencv-python
+```
